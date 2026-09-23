@@ -19,9 +19,16 @@
 ---
 
 <!-- live-changelog:start -->
-### 📊 Total: 1050 commits · 77 active days · 42 unique authors
+### 📊 Total: 1052 commits · 78 active days · 42 unique authors
 
 > **📖 How to read this:** Each entry shows a clickable SHA, the author, and a one-line subject. Sub-bullets show the **exact files touched** with per-file `+additions −deletions`, the **total line stats**, and (when present) the **commit body** explaining what & why.
+
+#### 📅 2026-09-21  <sub>(2 commits)</sub>
+
+- 📌 [`07a8dae7`](https://github.com/vicharanashala/tenali/commit/07a8dae72b169e5189b5ce679eed1c52b2e4c0b5) — **Krishna Gelra** — 🔀 PR [#331](https://github.com/vicharanashala/tenali/pull/331) from `KrishnaG-101` — feat/landing-page-and-showcase
+- ✨ [`160f58b9`](https://github.com/vicharanashala/tenali/commit/160f58b9ec96533c5c4e60526f528e76dcb1b4a6) — **Krishna Gelra** — add modern landing page and accurate showcase graphics
+    - 📁 **19 files:** `.gitignore` `+2 −0`, `client/public/contrast/determinants-accurate.svg` `+36 −0`, `client/public/contrast/matrix-accurate.svg` `+18 −0`, `client/public/contrast/prime-accurate.svg` `+27 −0`, `client/public/contrast/similarity-accurate.svg` `+28 −0`, `client/public/contrast/simultaneous-accurate.svg` `+28 −0`, `client/public/contrast/trigonometry-accurate.svg` `+28 −0`, `client/src/App.jsx` `+161 −13` *(+11 more in [`160f58b9`](https://github.com/vicharanashala/tenali/commit/160f58b9ec96533c5c4e60526f528e76dcb1b4a6))*
+    - 📊 **`+3275 −13`** · 19 files
 
 #### 📅 2026-09-16  <sub>(1 commit)</sub>
 
