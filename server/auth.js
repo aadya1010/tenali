@@ -90,6 +90,13 @@ const UserSchema = new mongoose.Schema({
   totalSolved: { type: Number, default: 0 },
   streak: { type: Number, default: 0 },
   lastActiveDate: { type: String, default: "" },
+  weeklyHabit: {
+    targetDaysPerWeek: { type: Number, default: 3 },
+    currentWeekYear: { type: String, default: '' },
+    activeDaysThisWeek: { type: [String], default: [] },
+    weeklyStreak: { type: Number, default: 0 },
+    lastWarmupCompletedAt: { type: Date, default: null }
+  },
   milestones: [
     {
       event: { type: String, required: true },

@@ -141,6 +141,7 @@ app.use('/api/auth', auth.router);
 app.use('/api/progress', progress.router);
 app.use('/api/hints', hints);
 app.use('/api/translate', translate.router);
+app.use('/api/review', require('./routes/review'));
 
 // ── Concept Playgrounds ──────────────────────────────────────────────────────
 // The 5-stage conceptual loop that fronts the qformula and simul drills.
