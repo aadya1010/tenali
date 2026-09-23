@@ -74,11 +74,22 @@ function pick(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+const triPick = pick;
+const seqPick = pick;
+const idxPick = pick;
+const vmPick = pick;
+const setPick = pick;
+
 module.exports = {
   randomInt,
   digitRange,
   gcd,
   lcm,
   simplifyFraction,
-  pick
+  pick,
+  triPick,
+  seqPick,
+  idxPick,
+  vmPick,
+  setPick
 };
